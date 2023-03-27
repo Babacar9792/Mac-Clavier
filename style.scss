@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12em;
+}
+.ecran
+{
+    background-color: blue;
+    width:30% ;
+    height:15%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container
+{
+    height: 50%;
+    width: 70%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+   
+    // justify-content: center;
+    // align-items: center;
+    button
+    {
+        height: 17%;
+        width: 6.5%;
+        border: 0.1em solid;
+        background-color: black;
+        border-radius: 1em;
+        // margin-left: 0.19%;
+        color: white;
+        box-shadow: 0.3em 0.1em 0.1em 0.1em rgba(128, 128, 128, 0.445);
+    }
+    button:hover
+    {
+        transform: scale(1.1);
+    }
+   
+}
+.container > button:nth-child(2),.container > button:nth-child(1), .container > button:nth-child(3), .container > button:nth-child(4)
+{
+    height: 12%;
+    
+}
+.container > button:nth-child(3), .container > button:nth-child(4)
+{
+    width: 5%;
+}
+.container > button:nth-child(2)
+{
+    width: 78%;
+    background-color: brown;
+}
+.container > button:nth-child(18), .container > button:nth-child(19)
+{
+    width:9.75%;
+    background-color: brown;
+}
+.container > button:nth-child(33), .container > button:nth-child(45)
+{
+    width: 13%;
+    background-color: brown;
+}
+.container > button:nth-child(45)
+{
+    width: 10%;
+}
+.container > button:nth-child(46), .container > button:nth-child(57)
+{
+    width: 16.25%;
+    background-color: brown;
+}
+.container > button:nth-child(57)
+{
+    width: 13.25%;
+}
+.container > button:nth-child(62)
+{
+    width: 32.69%;
+    background-color: brown;
+}
+.container > button:nth-child(61), .container > button:nth-child(63)
+{
+    width: 9.69%;
+    background-color: brown;
+}
+.container > button:nth-child(65)
+{
+    width: 16.69%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    div
+    {
+        
+        width: 30%;
+        height: 40%;
+        border: 0.1em solid;
+        margin-left: 2%;
+        border-radius: 30%;
+        border-color: transparent;
+        background-color: black;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+.container > button:nth-child(65) > div:nth-child(1), .container > button:nth-child(65) > div:nth-child(3)
+{
+    visibility: hidden;
+    
+}
+.container > button:nth-child(65):hover
+{
+    transform: scale(1);
+}
+.container > button:nth-child(65) > div:hover
+{
+    transform: scale(1.2);
+}
