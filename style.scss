@@ -32,9 +32,7 @@ body
     display: flex;
     flex-wrap: wrap;
     margin-left: 3%;
-   
-    // justify-content: center;
-    // align-items: center;
+
     button
     {
         height: 17%;
@@ -42,7 +40,6 @@ body
         border: 0.1em solid;
         background-color: black;
         border-radius: 1em;
-        // margin-left: 0.19%;
         color: white;
         box-shadow: 0.3em 0.1em 0.1em 0.1em rgba(128, 128, 128, 0.445);
     }
@@ -135,4 +132,10 @@ body
 .container > button:nth-child(65) > div:hover
 {
     transform: scale(1.2);
+}
+
+
+.takk{
+    box-shadow: -2px 21px 30px -4px rgba(68, 179, 56, 0.74);
+    transform:  scale(1.2);
 }

@@ -119,4 +119,9 @@ body {
 
 .container > button:nth-child(65) > div:hover {
   transform: scale(1.2);
+}
+
+.takk {
+  box-shadow: -2px 21px 30px -4px rgba(68, 179, 56, 0.74);
+  transform: scale(1.2);
 }/*# sourceMappingURL=style.css.map */
